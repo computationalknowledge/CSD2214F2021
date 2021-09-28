@@ -15,3 +15,35 @@
 
 </body>
 </html>
+
+**********************************************************************************
+
+<html>
+<head>
+    <title> Welcome to Peter's Great Web Page </title>
+    <script src="./index.js">
+    </script>
+
+</head>
+
+<body>
+<h1> 
+    <button label="PRESS ME" onclick="a()"/>
+    <font color = 'blue'>Hello Peanut </font>  </h1>
+
+<img src='https://th.bing.com/th/id/OIP.xOgCdQWAQom0OIqz6m-t_QAAAA?w=196&h=188&c=7&r=0&o=5&pid=1.7'/>
+
+</body>
+</html>
+
+function a(){
+
+let element = document.createElement("div");
+
+let p = 0 ; 
+for (index in element.style)
+	p++;
+
+console.log(p);
+
+}
