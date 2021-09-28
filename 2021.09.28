@@ -1,16 +1,14 @@
 <html>
 <head>
     <title> Welcome to Peter's Great Web Page </title>
-    <script>
-        function a(){
-            alert("HELLO");
-    }
+    <script src="./index.js">
     </script>
+
 </head>
 
-<body>
+<body onload="alert('I am now loading the Body NODE')">
 <h1> 
-    <button onclick=""/>
+    <button onclick="a()"/>
     <font color = 'blue'>Hello Peanut </font>  </h1>
 
 <img src='https://th.bing.com/th/id/OIP.xOgCdQWAQom0OIqz6m-t_QAAAA?w=196&h=188&c=7&r=0&o=5&pid=1.7'/>
