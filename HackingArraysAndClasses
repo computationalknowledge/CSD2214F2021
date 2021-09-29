@@ -1,0 +1,21 @@
+// sort an array:
+function wordGenerator(){
+	var vowels = ['a','e','i','o','u'];
+	var consonants = ['b','c','d','f','g','h','i','j','k','l','m','n','p','q','r','s','t', 'u','v','w','x','y','z'];
+	// console.log ( Math.floor(Math.random() * 100));
+	var aRandomWord = consonants[Math.floor(Math.random() * consonants.length)] + vowels[Math.floor(Math.random() * vowels.length)];
+	return aRandomWord;
+}
+
+class Things{
+		constructor(thingl,	thing2){
+		var tl = thingl;
+		var t2 = thing2;
+	}
+}
+
+var stuff = new Array();
+stuff.push("lion");
+
+console.log(wordGenerator());
+
