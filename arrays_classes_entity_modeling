@@ -1,0 +1,23 @@
+// Write a Class to Model an Orange. What attributes does an Orange have? 
+// Write code to put 10 Orange objects into an Array.
+function displayOranges(fruits){
+    for (var j = 0; j<fruits.length; j++) {
+        console.log(fruits[j]);
+    }
+}
+
+    let Orange = class {
+        constructor(weight, radius) {
+          this.weight = weight;
+          this.radius = radius;
+        }
+      };
+
+var oranges = new Array();
+for (var i = 1; i < 11; i++){
+    // in practice, we will import the orange data from a csv file 
+    // for now just hardcode some values to test the code:
+    oranges[i] = new Orange(1,2);
+}
+
+displayOranges(oranges);
