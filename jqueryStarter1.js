@@ -72,28 +72,26 @@
 
 /////////////////////////////////////////////////////////////////////////////////
 
-Live Demo
 <html>
    <head>
       <title>The jQuery Example</title>
+      <base href="http://www.google.com" />
       <script type = "text/javascript" 
          src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
       </script>
 		
       <script type = "text/javascript" language = "javascript">
          $(document).ready(function() {
-            var title = $("em").attr("title");
-            $("#divid").text(title);
+            $("#myimg").attr("src", "/jquery/images/jquery.jpg");
          });
       </script>
    </head>
 	
    <body>
       <div>
-         <em title = "Bold and Brave">This is first paragraph.</em>
-         <p id = "myid">This is second paragraph.</p>
-         <div id = "divid"></div>
+         <img id = "myimg" src = "/images/jquery.jpg" alt = "Sample image" />
       </div>
    </body>
 </html>
+
 
