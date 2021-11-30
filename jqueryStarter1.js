@@ -1,15 +1,20 @@
 <html>
-<head>
-    <title>Peter's Great Web Page</title>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
-    </script>
+   <head>
+      <title>The jQuery Example</title>
+      <script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+      </script>
 
-</head>
-
-<body>
-    <H1>Hello!</H1>
-
-</body>
-
+      <script type = "text/javascript" language = "javascript">
+         $(document).ready(function() {
+            $("div").click(function() {alert("Hello, world!");});
+         });
+      </script>
+   </head>
+	
+   <body>
+      <div id = "mydiv">
+         Click on this to see a dialogue box.
+      </div>
+   </body>
 </html>
